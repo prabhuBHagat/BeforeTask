@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inner-box{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    align-items: center;
+}
+
+.inner-box::after, .inner-box:before {
+    content: ' ';
+    height: 2px;
+    background: gray;
+    flex: 1 0 0;
+    position: relative;
+    
+}
